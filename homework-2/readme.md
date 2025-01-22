@@ -12,6 +12,6 @@ Once you have your js and html files complete and formatted correctly, you must 
 
 [Home](https://txuan1231.github.io/sp25-n220/)
 
-[Internal Scripts](https://github.com/txuan1231/sp25-n220/blob/main/homework-2/index.html)
+[Internal Scripts](http://127.0.0.1:5500/homework-2/index.html)
 
-[External Scripts](https://github.com/txuan1231/sp25-n220/blob/main/homework-2/outdex.html)
+[External Scripts](http://127.0.0.1:5500/homework-2/outdex.html)
