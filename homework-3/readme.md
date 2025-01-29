@@ -4,7 +4,7 @@
 
 ### Weekly Recap
 
-Learned many different ways to use ways to manipulate between different formats.  Learned how to actually code in JavaScript with basic functions. We must remember to show results in our js files, we must console.log whatever result we want to show.  For the login page on the homework, the parentheses are included in password.  
+Learned many different ways to use ways to manipulate between different formats.  Learned how to actually code in JavaScript with basic functions. We must remember to show results in our js files, we must console.log whatever result we want to show.  For the login page on the homework, the parentheses are included in password.  Also figured how to link all the html files on each page.  Please reference to this in the future if needed.
 
 ## Live Link
 
