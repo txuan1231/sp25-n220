@@ -5,28 +5,26 @@ function letsGo() {
 letsGo();
 
 function calculateTotal(itemPrice, taxRate = 0.07, discountRate = 0.1) {
+  const groupsOfTwenty = Math.floor(itemPrice / 20);
 
-    const groupsOfTwenty = Math.floor(itemPrice / 20);
+  switch (groupsOfTwenty) {
+    case 1:
+      discount = 0;
+      break;
+    case 2:
+      discount = discountRate * 0.5;
+      break;
+    case 3:
+      discount = discountRate;
+      break;
+    case 4:
+      discount = discountRate * 2;
+      break;
+    case 5:
+      discount = discountRate * 4;
+  }
 
-    switch(groupsOfTwenty) {
-        case 1:
-            discount = 0;
-            break;
-        case 2:
-            discount = discountRate * 0.5;
-            break;
-        case 3:
-            discount = discountRate;
-            break;
-        case 4:
-            discount = discountRate * 2;
-            break;
-        case 5:
-            discount = discountRate * 4;
-        
-    }
-
-    return (itemPrice * (1 + taxRate) * (1 - discount)).toFixed(2);
+  return (itemPrice * (1 + taxRate) * (1 - discount)).toFixed(2);
 
   if (itemPrice > 100) {
     return itemPrice * (1 + taxRate) * (1 - discountRate * 2);
